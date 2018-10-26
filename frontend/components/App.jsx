@@ -13,9 +13,7 @@ import SearchContainer from './search/search_container.jsx';
 const App = () => (
   <div>
    <header>
-     <Link to="/" className="header-link">
-       <h1>Entirely Pets</h1>
-     </Link>
+     <h1>Welcome to Entirely Pets!</h1>
    </header>
    <Switch>
      <Route exact path="/" component={SearchContainer} />

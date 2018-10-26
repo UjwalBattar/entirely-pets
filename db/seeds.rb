@@ -9,8 +9,8 @@
 animals = ["dog", "cat"]
 categories = ["toy", "food", "grooming", "accessory"]
 colors = ["red", "blue", "green", "yellow", "orange", "black"]
-images = ["https://img.huffingtonpost.com/asset/5b7fdeab1900001d035028dc.jpeg?cache=sixpwrbb1s&ops=1910_1000",
-"https://www.readersdigest.ca/wp-content/uploads/sites/14/2011/01/4-ways-cheer-up-depressed-cat.jpg"]
+images = ["http://www.petmania.ie/images/default-source/grooming-price-lists/puppy-groom-thumbnail.jpg?sfvrsn=2",
+"https://i.imgflip.com/4xgqu.jpg"]
 
 
 

@@ -19,12 +19,18 @@ class IndexItem extends React.Component {
         onClick={this.handleClick}
       >
         <p>Image: </p>
-        <img className="index-item-image" src={image} />
+        <div>
+          <img className="index-item-image" src={image} />
+        </div>
         <div className="index-item-info">
-          <span className="index-item-title">Title:{title}</span>
-          <span className="index-item-category">Category:{category}</span>
-          <span className="index-item-color">Color:</span>
-          <span className="index-item-price">Price:</span>
+          <span className="index-item-title">Title: {title}</span>
+          <br />
+          <span className="index-item-category">Category: {category}</span>
+          <br />
+          <span className="index-item-color">Color: {color}</span>
+          <br />
+          <span className="index-item-price">Price: $ {price}</span>
+          <br />
         </div>
       </div>
     );

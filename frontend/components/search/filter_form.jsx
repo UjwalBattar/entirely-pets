@@ -1,13 +1,14 @@
 import React from 'react';
 
 const handleChange = (filter, updateFilter) => (e) => {
-  console.log(filter);
+  console.log();
   updateFilter(filter, e.target.value);
 };
 
-const FilterForm = ({ animal, category, color, updateFilter }) => (
+const FilterForm = ({ length, animal, category, color, updateFilter }) => (
   <div>
-    <span className="filter">Filter results: </span>
+
+    <span className="filter">Filter results: {length}</span>
       <br/>
       <label>Animal:</label>
       <br/>

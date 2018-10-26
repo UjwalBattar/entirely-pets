@@ -18,7 +18,7 @@ class Search extends React.Component {
 
   render() {
     let { products, animal, category, color, updateFilter } = this.props;
-
+    let length = products.length;
     return (
       <div className="user-pane">
         <div className="right-half">
@@ -27,6 +27,7 @@ class Search extends React.Component {
             category={category}
             color={color}
             updateFilter={updateFilter}
+            length={length}
           />
         <ProductIndex products={products} />
         </div>
