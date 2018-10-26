@@ -1,5 +1,5 @@
 {
-  "name": "healthy_pets",
+  "name": "entirely_pets",
   "private": true,
   "dependencies": {
     "babel-core": "^6.26.3",
