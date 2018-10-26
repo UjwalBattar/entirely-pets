@@ -1,6 +1,7 @@
 var path = require("path");
 
 module.exports = {
+  mode: 'none',
   context: __dirname,
   entry: "./frontend/entirely_pets.jsx",
   output: {
