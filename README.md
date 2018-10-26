@@ -17,6 +17,25 @@ In terminal:
 
 The following commands:
 
+`bundle install`
+
+Then
+`npm install`
+
+Then you may need to initialize the database using
+`bundle exec rails db:setup`
+
+Once this is all complete and satisfactory,
+
+Run `rails server` in one window of your terminal
+You may also run `npm run start` in another window to start webpack --watch
+
+Go to [http://localhost:3000](http://localhost:3000) to see the page!
+
+
+
+
+
 
 
 
